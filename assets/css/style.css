@@ -85,3 +85,51 @@ h4 {
 section ul {
   margin: 30px;
 }
+h5 {
+  font-size: large;
+}
+.grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 1em;
+  row-gap: 1em;
+  padding: 30px;
+}
+div h5 {
+  padding: 15px;
+  text-align: center;
+}
+.grid > div{
+  background-color: var(--tertiary-color);
+  padding: 1em;
+  border: 1px black solid;
+}
+.box1 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.box2 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.box3 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.box4 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.box5 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.box6 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.box7 {
+  grid-column: span 1;
+grid-row: span 1;
+}
